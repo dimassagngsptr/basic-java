@@ -1,0 +1,40 @@
+package com.dicoding.javafundamental.operator;
+
+public class OperatorAritmatika {
+    public static void main(String []args){
+        System.out.println("Operasi Penjumlahan");
+        int hasilPenjumlahan = 5 + 1;
+        System.out.println("Hasil 5 + 1 = " + hasilPenjumlahan);
+        System.out.println();
+        System.out.println("Operasi Pengurangan");
+        int hasilPengurangan = 4 - 1;
+        System.out.println("Hasil 4 - 1 = " + hasilPengurangan);
+        System.out.println();
+        System.out.println("Operasi Pengalian");
+        int hasilPengalian = 5 * 5;
+        System.out.println("Hasil 5 * 5 = " + hasilPengalian);
+        System.out.println();
+        System.out.println("Operasi Pembagian");
+        int hasilPembagian = 20 / 2;
+        System.out.println("Hasil 20 / 2 = " + hasilPembagian);
+        System.out.println();
+        System.out.println("Operasi Habis bagi");
+        int hasilSisa = 8 % 2;
+        System.out.println("Hasil 8 % 2 = " + hasilSisa);
+        int hasilSisaLain = 9 % 2;
+        System.out.println("Hasil 9 % 2 = " + hasilSisaLain);
+        System.out.println();
+        int counter = 15;
+        for (int i=1; i <= counter; i++){
+            if(i % 3 == 0 && i % 5 == 0){
+                System.out.println("FizzBuzz");
+            } else if (i % 3 ==0) {
+                System.out.println("Fizz");
+            }else if(i %5 ==0){
+                System.out.println("Buzz");
+            }else{
+                System.out.println(i);
+            }
+        }
+    }
+}
