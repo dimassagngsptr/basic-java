@@ -1,7 +1,7 @@
 package com.dicoding.javafundamental.operator;
 
 public class OperatorUnary {
-    public static void main(String []args){
+    public static void main(String[] args){
         System.out.println("Operator Unary");
         int nilaiAwal = 5;
         int hasil = +nilaiAwal;

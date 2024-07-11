@@ -1,7 +1,7 @@
 package com.dicoding.javafundamental.array;
 
 public class MultiDimesiArray {
-    public static void main(String []args){
+    public static void main(String[] args){
         char[][] arrChar = new char[2][];
         arrChar[0] = new char[2];
         arrChar[1] = new char[3];

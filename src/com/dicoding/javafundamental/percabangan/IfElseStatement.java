@@ -1,7 +1,7 @@
 package com.dicoding.javafundamental.percabangan;
 
 public class IfElseStatement {
-    public static void main(String []args){
+    public static void main(String[] args){
         int nilaiUjian = 80;
         char indeksPrestasi = 0;
 

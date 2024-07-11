@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class UserBufferedReader {
-    public static void main(String []args){
+    public static void main(String[] args){
         InputStreamReader inputStreamReader = new InputStreamReader(System.in);
         BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
         System.out.println("Program penjumlahan sangat sederhana");

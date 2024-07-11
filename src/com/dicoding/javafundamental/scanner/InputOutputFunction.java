@@ -3,7 +3,7 @@ package com.dicoding.javafundamental.scanner;
 import java.util.Scanner;
 
 public class InputOutputFunction {
-    public static void main(String []args){
+    public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Program penjumlahan sangat sederhana");
         System.out.print("Masukan Angka pertama : ");
